@@ -2,11 +2,12 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box
+    box-sizing: border-box;
 }
 
 /* Utility */
-a {
+
+a, a:hover {
     text-decoration: none;
 }
 
@@ -16,6 +17,21 @@ a {
     padding: 0 20px;
     overflow: auto;
 }
+
+.text-primary {
+    color: #f7c08a;
+}
+
+.btn {
+    display: inline-block;
+    font-size: 18px;
+    color: white;
+    background: #333;
+    padding: 13px 20px;
+    border: none;
+    cursor: pointer;
+}
+
 
 /* Navbar */
 nav {
@@ -52,6 +68,24 @@ nav ul li a.current, nav ul li a:hover {
     color: #f7c08a;
 }
 
-showcase {
-    background: url ("../photos/showcase.jpg")
+/* Showcase Section */
+
+#showcase {
+    background: url ("../photos/showcase.jpg") no-repeat center center/cover;
+    background-size: cover;
+    height: 600px;
+    color: white;
+    text-align: center;
+    padding-top: 170px;
 } 
+
+#showcase h1 {
+    font-size: 60px;
+    line-height: 1.2em;
+}
+
+#showcase p {
+    font-size: 20px;
+    line-height: 1.7em; 
+}
+
