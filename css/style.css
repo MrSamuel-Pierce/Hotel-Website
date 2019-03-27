@@ -11,6 +11,15 @@ a, a:hover {
     text-decoration: none;
 }
 
+h1, h2, h3 {
+    padding-bottom: 20px;
+}
+
+p {
+    margin: 10px 0;
+}
+
+
 .container {
     max-width: 1100px;
     margin: auto;
@@ -30,6 +39,17 @@ a, a:hover {
     padding: 13px 20px;
     border: none;
     cursor: pointer;
+}
+
+.btn-light {
+    background: #f4f4f4;
+    color: #333;
+}
+
+
+.bg-dark {
+    background: #333;
+    color: white;
 }
 
 
@@ -87,5 +107,244 @@ nav ul li a.current, nav ul li a:hover {
 #showcase p {
     font-size: 20px;
     line-height: 1.7em; 
+    padding-bottom: 20px;
 }
 
+/* Home Info. */
+#home-info {
+    height: 400px;
+}
+
+#home-info .info-img {
+    float: left;
+    width: 50%;
+    background: url("../img/photo-1.jpg") no-repeat;
+    min-height: 100%;
+}
+
+#home-info .info-content {
+    float: right;
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    padding: 50px 30px;
+    overflow: hidden;
+}
+
+#home-info .info-content p {
+    margin-bottom: 30px;
+}
+
+/* Types of Rooms */
+
+/* Non-Smoking */
+/* <i class="fas fa-smoking-ban"></i> */
+
+/* Smoking */
+/* <i class="fas fa-smoking"></i> */
+
+/* Jaccuzi Suite */
+/* <i class="fas fa-hot-tub"></i> */
+
+
+
+/* Company Staff */
+
+/* Money Exchange */
+/* <i class="fas fa-hand-holding-usd"></i> */
+
+/* Request Gift Wrap + Personal Shopper */
+/* <i class="fas fa-gifts"></i> */
+
+/* Request Mail Delievery */
+/* <i class="fas fa-mail-bulk"></i> */
+
+/* Request Pizza Delivery */
+/* <i class="fas fa-pizza-slice"></i> */
+
+/* Request Room Service */
+/* <i class="fas fa-concierge-bell"></i> */
+
+/* Request a Somalie */
+/* <i class="fas fa-wine-bottle"></i> */
+
+/* Request a Consierge */
+/* <i class="fas fa-user-tie"></i> */
+
+
+
+/* Automotive Icons */
+
+/* Parking */
+/* <i class="fas fa-parking"></i> */
+
+/* Local Gas Stations */
+/* <i class="fas fa-gas-pump"></i> */
+
+/* Request an Oil Change */
+/* <i class="fas fa-oil-can"></i> */
+
+/* Request a Battery Change */
+/* <i class="fas fa-car-battery"></i> */
+
+/* Local Electric Charging Stations */
+/* <i class="fas fa-charging-station"></i> */
+
+
+
+/* Public Safety Icons */
+
+/* Pedestrian Safety Zone */
+/* <i class="fas fa-street-view"></i> */
+
+/* US Passort + Federal ID */
+/* <i class="fas fa-id-card"></i> */
+
+/* State IDs + Driver's License */
+/* <i class="far fa-address-card"></i> */
+
+
+
+
+/* Gemstone Club Levels */
+
+/* Sapphire */
+/* <i class="fas fa-gem"></i> */
+
+/* Diamond */
+/* <i class="far fa-gem"></i> */
+
+
+/* Business Class */
+
+/* Request a Business Function Room */
+/* <i class="fas fa-business-time"></i> */
+
+/* Request a Local Consultant */
+/* <i class="far fa-handshake"></i> */
+
+/* Request a Local Network Rep*/
+/* <i class="fas fa-handshake"></i> */
+
+
+
+/* Green Transportation */
+
+/* Horse + Carriage */
+/* <i class="fas fa-horse"></i> */
+
+/* Local Bike Sharing Stations */
+/* <i class="fas fa-bicycle"></i> */
+
+/* Request a Hotel Shuttle */
+/* <i class="fas fa-shuttle-van"></i> */
+
+/* Public Transit */
+/* <i class="fas fa-subway"></i> */
+
+
+
+/* Moving + Baggage Transfer */
+
+/* Request a Luggage Cart */
+/* <i class="fas fa-luggage-cart"></i> */
+
+/* Request a Bell Cap + Sky Cap */
+/* <i class="fas fa-people-carry"></i> */
+
+/* Request a Chauffeur */
+/* <i class="fas fa-car"></i> */
+
+/* Request a Team + Wedding Bus */
+/* <i class="fas fa-bus-alt"></i> */
+
+/* Request a Moving Truck */
+/* <i class="fas fa-truck"></i> */
+
+/* Request a Vallet + Airport Transfer */
+/* <i class="fas fa-helicopter"></i> */
+
+
+
+/* Exercise Icons */
+
+/* Walk */
+/* <i class="fas fa-walking"></i> */
+
+/* Run */
+/* <i class="fas fa-running"></i> */
+
+/* Hike */
+/* <i class="fas fa-hiking"></i> */
+
+/* Snowboard */
+/* <i class="fas fa-snowboarding"></i> */
+
+
+
+/* Sports + Entertainment Icons */
+
+/* Local Hangout Spots */
+/* <i class="fas fa-spider"></i> */
+
+/* Local Music Clubs + Shows */
+/* <i class="fas fa-music"></i> */
+
+/* Local Golf Clubs */
+/* <i class="fas fa-golf-ball"></i> */
+
+/* College + Pro Football Tickets */
+/* <i class="fas fa-football-ball"></i> */
+
+/* College + Pro Basketball Tickets */
+/* <i class="fas fa-basketball-ball"></i> */
+
+/* Request Red Sox Tickets */
+/* <i class="fas fa-socks"></i> */
+
+/* Local Casino Locations */
+/* <i class="fas fa-dice"></i> */
+
+
+
+/* Environment Icons */
+
+/* Fish */
+/* <i class="fas fa-fish"></i> */
+
+/* Rainforests */
+/* <i class="fas fa-otter"></i> */
+
+/* Domestic Animals */
+/* <i class="fas fa-dog"></i> */
+
+/* Cat */
+/* <i class="fas fa-cat"></i> */
+
+/* Plant Life */
+/* <i class="fab fa-pagelines"></i> */
+
+
+
+/* Weather Icons */
+
+/* Sunny + Cloudy Day */
+/* <i class="fas fa-cloud-sun"></i> */
+
+/* Rain + Snow Predicted */
+/* <i class="fas fa-cloud-sun-rain"></i> */
+
+
+/* Local Coffee Shops */
+
+/* Coffee */
+/* <i class="fas fa-mug-hot"></i> */
+
+/* Coffee Shops + Wifi */
+/* <i class="fas fa-wifi"></i> */
+
+/* Marijuana Friendly Coffee Shops */
+/* <i class="fas fa-tree"></i> */
+
+/* Cannabis Shop */
+/* <i class="fas fa-cannabis"></i> */
