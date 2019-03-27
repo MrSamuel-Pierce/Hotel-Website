@@ -5,7 +5,31 @@
     box-sizing: border-box;
 }
 
+body {
+    font-family: 'Segoe UI', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.7em;
+
+}
+
 /* Utility */
+
+.py-1 {
+    padding: 10px 0;
+}
+
+.py-2 {
+    padding: 20px 0;
+}
+
+.py-3 {
+    padding: 30px 0;
+
+
+}
+
+.clr {
+    clear: both;
+}
 
 a, a:hover {
     text-decoration: none;
@@ -52,6 +76,15 @@ p {
     color: white;
 }
 
+.bg-light {
+    background: #f4f4f4;
+    color: #333;
+}
+
+.bg-primary {
+    background: #f7c08a;
+    color: #333;
+}
 
 /* Navbar */
 nav {
@@ -91,7 +124,7 @@ nav ul li a.current, nav ul li a:hover {
 /* Showcase Section */
 
 #showcase {
-    background: url ("../photos/showcase.jpg") no-repeat center center/cover;
+    background: url("../img/showcase.jpg") no-repeat center center/cover;
     background-size: cover;
     height: 600px;
     color: white;
@@ -133,6 +166,48 @@ nav ul li a.current, nav ul li a:hover {
 
 #home-info .info-content p {
     margin-bottom: 30px;
+}
+
+/* Features */
+.box {
+    float: left;
+    width: 33.3%;
+    padding: 50px;
+    text-align: center;
+    min-height: 300px;
+}
+
+/* About Info */
+#about-info .info-left {
+    float: left;
+    width: 50%; 
+    min-height: 100%;
+}
+
+#about-info .info-left h1 {
+    font-size: 40px;
+    line-height: 1.2em;
+}
+
+#about-info .info-right {
+    float: right;
+    width: 50%;
+    min-height: 100%;
+}
+
+#about-info .info-right img {
+    display: block;
+    margin: auto;
+    width: 70%;
+    border-radius: 50%;
+}
+
+
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
 }
 
 /* Types of Rooms */
